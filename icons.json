@@ -1,0 +1,8 @@
+{
+  "font-name": "icon-font",
+  "class-name": "icon",
+  "icons": [{
+    "name": "home",
+    "svg": "node_modules/material-design-icons/action/svg/production/ic_home_24px.svg"
+  }]
+}
