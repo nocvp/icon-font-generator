@@ -10,12 +10,11 @@
   font-style: normal;
 }
 
-.<%= className %>:before {
+.<%= className %> {
   display: inline-block;
-  font-family: "<%= fontName %>";
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
+  font: normal normal normal 14px/1 "<%= fontName %>";
+  font-size: inherit;
+  text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
