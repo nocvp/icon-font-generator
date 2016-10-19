@@ -10,7 +10,7 @@ gulp.task('generate', function () {
     return gulp.src('tmp/*.svg')
         .pipe(iconfont({
             fontName: iconConfig['font-name'],
-            formats: ['ttf', 'eot', 'woff', 'woff2', 'swg'],
+            formats: ['ttf', 'eot', 'woff', 'woff2', 'svg'],
             appendCodepoints: true,
             appendUnicode: false,
             normalize: true,
