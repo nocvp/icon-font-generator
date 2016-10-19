@@ -23,6 +23,7 @@ gulp.task('generate', function () {
                     glyphs: glyphs,
                     className: iconConfig['class-name'],
                     fontName: options.fontName,
+                    fontVersion: iconConfig['version'],
                     fontDate: new Date().getTime()
                 }))
                 .pipe(rename(options.fontName + '.css'))
