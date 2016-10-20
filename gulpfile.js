@@ -15,6 +15,7 @@ gulp.task('generate', function () {
             appendUnicode: false,
             normalize: true,
             fontHeight: 1000,
+            descent: 170,
             centerHorizontally: true
         }))
         .on('glyphs', function (glyphs, options) {
